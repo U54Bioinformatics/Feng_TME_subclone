@@ -45,7 +45,7 @@ CANCER_GENES=cancer_genes.txt
 COSMIC=cosmic.v79.grch37.mutation_data.txt.gz
 bed=/home/jichen/Projects/Breast/scRNA/Data/Agilent_SureSelect_XT_Human_v7.nochr.bed
 
-FILE=`cat Feng_patient.list | head -n $N | tail -n 1`
+FILE=`cat ABall_patient.list | head -n $N | tail -n 1`
 
 prefix=$FILE
 echo $prefix
